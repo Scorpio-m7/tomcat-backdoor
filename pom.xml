@@ -13,6 +13,7 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
     <!-- 构建过程的设置 Build Settings -->
+    <!--打包插件-->
     <build>
         <plugins>
             <plugin>
@@ -35,6 +36,7 @@
     </build>
     <dependencies>
     <!-- 项目信息设置 More Project Information -->
+        <!--mvnrepository.com/artifact/javax.servlet/javax.servlet-api-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
